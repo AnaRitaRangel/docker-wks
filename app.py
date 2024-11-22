@@ -6,7 +6,7 @@ def hello_world():
 
 def deploy_message():
     # Return the second message
-    return "**This is my second deploy, this one with Docker on Render**"
+    return "**This is my second deploy, this one with Docker on Render and AWS**"
 
 def main():
     # Display the first message
