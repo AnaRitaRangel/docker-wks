@@ -3,13 +3,13 @@ name = "docker-wks"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "AnaRitaRangel",email = "106035404+AnaRitaRangel@users.noreply.github.com"}
+    {name = "AnaRitaRangel", email = "106035404+AnaRitaRangel@users.noreply.github.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "streamlit"
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
