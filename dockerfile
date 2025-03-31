@@ -6,7 +6,7 @@ RUN pip install poetry
 COPY . /src
 # Muda para o diretorio de trabalho (essa pasta criada)
 WORKDIR /src
-RUN poetry install
+RUN poetry install --no-root
 # 'Abrir' a porta que o Streamlit usa
 EXPOSE 8501
 # É o que eu escrevo no terminal quando quero rodar o programa
