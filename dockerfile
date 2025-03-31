@@ -3,7 +3,7 @@ FROM python:3.12.4
 # Os comandos necessários para instalar o poetry
 RUN pip install poetry
 # Copiar tudo que está na minha pasta e jogar na pasta /src que o Docker irá criar
-COPY ./src
+COPY ./src /src
 # Muda para o diretorio de trabalho (essa pasta criada)
 WORKDIR /src
 RUN poetry install
