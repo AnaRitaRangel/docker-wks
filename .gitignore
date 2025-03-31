@@ -1,0 +1,62 @@
+# ---- General OS & Editor Files ----  
+.DS_Store  
+Thumbs.db  
+*.swp  
+*.swo  
+.idea/  
+.vscode/  
+
+# ---- Python ----  
+__pycache__/  
+*.pyc  
+*.pyo  
+*.pyd  
+*.egg-info/  
+*.egg  
+Pipfile.lock  
+venv/  
+env/  
+.virtualenvs/  
+
+# ---- SQL ----  
+*.db  
+*.sqlite  
+*.sqlite3  
+*.sql.bak  
+*.csv  
+*.tsv  
+
+# ---- Docker ----  
+*.log  
+docker-compose.override.yml  
+.env  
+**/secrets/  
+**/config/  
+tmp/  
+*.pid  
+
+# ---- Airflow ----  
+airflow.cfg  
+unittests.cfg  
+logs/  
+dags/__pycache__/  
+webserver_config.py  
+airflow.db  
+airflow/airflow-webserver.pid  
+
+# ---- Linux & macOS ----  
+*.out  
+*.o  
+*.log  
+nohup.out  
+*.pid  
+*.bak  
+
+# ---- Miscellaneous ----  
+node_modules/  
+dist/  
+build/  
+*.iml  
+*.log  
+*.bak  
+*.tmp  
