@@ -11,6 +11,6 @@ RUN poetry install
 EXPOSE 8501
 # É o que eu escrevo no terminal quando quero rodar o programa
 # (minha 'deixa') + a porta e o local host
-ENTRYPOINT [ 'streamlit', 'run', 'app.py', 'server.port=8501', '--server.address=0.0.0.0' ]
+ENTRYPOINT [ 'poetry', 'run', 'streamlit', 'run', 'app.py', 'server.port=8501', '--server.address=0.0.0.0' ]
 
 
