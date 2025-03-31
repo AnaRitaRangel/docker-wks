@@ -1,5 +1,5 @@
 # A imagem do Python que vou usar
-FROM python:3.12.4
+FROM python:3.12
 # Os comandos necessários para instalar o poetry
 RUN pip install poetry
 # Copiar tudo que está na minha pasta '.' e jogar na pasta '/src' que o Docker irá criar
@@ -11,6 +11,7 @@ RUN poetry install --no-root
 EXPOSE 8501
 # É o que eu escrevo no terminal quando quero rodar o programa
 # (minha 'deixa') + a porta e o local host
-ENTRYPOINT [ 'poetry', 'run', 'streamlit', 'run', 'app.py', 'server.port=8501', '--server.address=0.0.0.0' ]
+ENTRYPOINT [ "poetry", "run", "streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0" ]
+
 
 
