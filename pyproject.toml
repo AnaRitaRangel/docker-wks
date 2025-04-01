@@ -5,7 +5,10 @@ description = ""
 authors = [
     {name = "AnaRitaRangel", email = "106035404+AnaRitaRangel@users.noreply.github.com"}
 ]
+
 readme = "README.md"
+
+
 requires-python = ">=3.12"
 dependencies = [
     "streamlit"

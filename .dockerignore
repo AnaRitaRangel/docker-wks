@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Poetry files
+poetry.lock
+
+# Pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables and credentials
+.env
+*.env
+secrets.toml
+
+# Logs
+logs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# SQLite database files
+*.sqlite3
+*.db
+
+# PostgreSQL data
+pgdata/
+postgres_data/
+
+# Ignore Docker-related files
+.dockerignore
+Dockerfile
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+
+# Node modules (if you use npm/yarn for frontend)
+node_modules/
+
+# Ignore Streamlit static cache
+.streamlit/
+
+# pgAdmin session files
+pgadmin4/session/
+pgadmin4/storage/
+pgadmin4/servers.json
